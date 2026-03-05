@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Site Title</title>
+  <meta name="description" content="Short description of your site" />
+  <link rel="icon" href="assets/favicon.ico" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- PAGE WRAPPER -->
+  <div class="page">
+
+    <!-- NAV -->
+    <header class="nav">
+      <a class="brand" href="#">YourName</a>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-btn" aria-label="Toggle menu">☰</button>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1 class="hero-title">Hi — I'm <span class="accent">Your Name</span></h1>
+        <p class="hero-sub">I build simple, beautiful websites. This template is free and easy to edit.</p>
+        <p>
+          <a class="btn" href="#projects">See projects</a>
+          <a class="btn ghost" href="#contact">Contact me</a>
+        </p>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/hero.jpg" alt="Hero image (replace me)" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <h2>About</h2>
+      <p>Write a short paragraph about yourself or your project. Replace this text with your own introduction.</p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Project One</h3>
+          <p>Short description. Link to project or GitHub repo.</p>
+          <a class="small-btn" href="#">View</a>
+        </article>
+        <article class="card">
+          <h3>Project Two</h3>
+          <p>Short description.</p>
+          <a class="small-btn" href="#">View</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <p>Use this simple form or replace with your email/social links.</p>
+
+      <!-- Simple form: optionally configure Formspree / Netlify Forms -->
+      <form id="contact-form" action="#" method="POST">
+        <label>
+          <span>Your name</span>
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          <span>Message</span>
+          <textarea name="message" rows="4" placeholder="Say hi..." required></textarea>
+        </label>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© <span id="year"></span> Your Name — <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a></p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
